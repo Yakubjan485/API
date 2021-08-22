@@ -27,7 +27,7 @@ const Posts = () => {
                     {data.map((item) => {
                          const {id, title} = item
                          return(
-                              <div key={id} className="col-4 mb-5">
+                              <div key={id} className="col-lg-4 col-sm-6 col-12 mb-5">
                          <div className="card">
                               <div className="card-header text-center">
                                    <h5>Post title</h5>

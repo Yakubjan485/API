@@ -31,7 +31,7 @@ const View = () => {
                          const {id, body} = item
                          
                          return(
-                              <div className="col-6 mb-5" key={id}>
+                              <div className="col-sm-6 col-12 mb-5" key={id}>
                                    <div className="card">
                                         <div className="card-body">
                                              <p>
